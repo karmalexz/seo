@@ -51,11 +51,9 @@ ol {
 }
 
 .banner {
-  width: auto;
-  max-height: 450px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .text {
@@ -740,6 +738,15 @@ button.accordion::before {
   .flexText {
     min-width: 210px;
     margin: 0.5rem auto;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .bannerResponsive {
+    display: flex;
+    width: 100%;
   }
 
   .border {
